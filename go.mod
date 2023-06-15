@@ -33,7 +33,11 @@ require (
 	github.com/dvsekhvalnov/jose2go v1.5.0 // indirect
 	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
 	github.com/gsterjov/go-libsecret v0.0.0-20161001094733-a6f4afe4910c // indirect
+	github.com/lox/go-touchid v0.0.0-20170712105233-619cc8e578d0 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
 	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
+	golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 )
+
+replace github.com/99designs/keyring v1.2.2 => github.com/milesbxf/keyring v0.0.0-20220916120441-35a1afea02b0
